@@ -1,16 +1,9 @@
+html{
+
+	scroll-behavior: smooth;
+}
+
 body{
 
-    background-color: blueviolet;
-}
-
-#teste{
-
-    text-align: center;
-    color: blue;
-}
-
-h1{
-
-    text-align: left;
-    color: green
+    background-color: yellow;
 }
