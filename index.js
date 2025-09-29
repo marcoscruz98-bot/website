@@ -1,4 +1,4 @@
-function mudar_conteudo_elemento() {
+function mudar_texto_elemento() {
 
   document.getElementById("demo").innerHTML = "O clique está funcionando"
   
