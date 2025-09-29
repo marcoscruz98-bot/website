@@ -12,11 +12,7 @@ function mudar_cor_elemento(){
 
     const elemento_paragrafo = document.querySelector('#paragrafo');
 
-    cores.forEach(function(cor){
-
-      elemento_paragrafo.style.color = 'red';
-
-    });
+    elemento_paragrafo.style.color = 'red';
 
   });
 
