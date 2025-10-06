@@ -8,43 +8,57 @@ body{
     background-color: yellow;
 }
 
-h1{
+#elemento_h1{
 
     color: green;
-    text-align: center;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
-h2{
+#elemento_h2{
     color: red;
-    text-align: right;
+    text-align: justify;
 }
 
-h3{
+#elemento_h3{
     color: violet;
-    text-align: left;
+    text-align: justify;
 }
 
-b{
+#elemento_b{
     color: darkolivegreen;
 }
 
-em{
+#elemento_em{
     color: chocolate;
 }
 
-strong{
+#elemento_strong{
     color: darkred;
 }
 
-sub{
+#elemento_sub{
     color: brown;
 }
 
-sup{
+#elemento_sup{
     color: chartreuse;
 }
 
-mark{
+#elemento_mark{
     color: white;
     background-color: blue;
+}
+
+#secao1{
+    display: inline-block;
+}
+
+#secao2{
+    display: inline-block;
+}
+
+#secao3{
+
+    display: inline-block;
 }
