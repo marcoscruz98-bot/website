@@ -20,5 +20,5 @@ function mudar_cor_elemento(){
 
 function mudar_estilo_textual(){
 
-  document.getElementById("#elemento_strong").style.textDecorationLine = "line-through";
+  document.getElementById("elemento_strong").style.textDecorationLine = "line-through";
 }
