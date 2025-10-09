@@ -11,18 +11,17 @@ body{
 #elemento_h1{
 
     color: green;
-    text-align: justify;
-    font-size: 1.5em;
+    text-align: center;
 }
 
 #elemento_h2{
     color: red;
-    text-align: justify;
+    text-align: right;
 }
 
 #elemento_h3{
     color: violet;
-    text-align: justify;
+    text-align: left;
 }
 
 #elemento_b{
