@@ -22,3 +22,30 @@ function mudar_estilo_textual(){
 
   document.getElementById("elemento_strong").style.textDecorationLine = "line-through";
 }
+
+
+var video_1 = document.getElementById("video1");
+
+function play_pause() {
+
+    video_1.play();
+
+}
+
+function aumentar_tamanho(){
+
+    video_1.width = 860;
+    video_1.height = 600;
+}
+
+function diminuir_tamanho(){
+
+    video_1.height = 300;
+    video_1.width = 170;
+}
+
+function tamanho_normal(){
+
+    video_1.height = 426;
+    video_1.width = 240;
+}

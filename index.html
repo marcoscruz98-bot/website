@@ -46,10 +46,22 @@
 
         <section id="secao1">
 
-            <h2>Vídeo de um urso proximo a pássaros</h2>
+            <h2>Vídeo de um urso próximo a pássaros</h2>
 
-            <video controls width="426" height="240">
-                
+            <div id="video1_div">
+
+                <button onclick="play_pause()" type="button">Play ou Pausar</button>
+
+                <button onclick="aumentar_tamanho()">Aumentar tamanho</button>
+
+                <button onclick="diminuir_tamanho()">Diminuir tamanho</button>
+
+                <button onclick="tamanho_normal()">Tamanho normal</button>
+
+            </div>
+
+            <video id="video1" controls width="426" height="240">
+
                 <source src="./videos/movie.mp4" type="video/mp4">
 
             </video>
@@ -60,10 +72,10 @@
 
             <h2>Vídeo de um urso caçando salmão</h2>
 
-            <video controls width="426" height="240">
-                
+            <video id="video2" controls width="426" height="240">
+            
                 <source src="./videos/movie2.mp4" type="video/mp4">
-
+            
             </video>
 
         </section>
@@ -71,11 +83,11 @@
         <section id="secao3">
 
             <h2>Vídeo de um urso procurando a mãe</h2>
-
-            <video controls width="426" height="240">
-                
+            
+            <video id="video3" controls width="426" height="240"> 
+            
                 <source src="./videos/movie3.mp4" type="video/mp4">
-
+            
             </video>
 
         </section>
