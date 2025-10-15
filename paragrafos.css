@@ -1,0 +1,10 @@
+p{
+	text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 0.1em;
+	text-transform: capitalize;
+	text-indent: 0em;
+	text-shadow: 1px 1px 2px red;
+}
